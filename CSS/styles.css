@@ -28,6 +28,7 @@
 
 body
 {
+    background: url('images/yellow_background.png');
     font-family: 'Trebuchet MS', Arial, sans-serif;
     color: #181818;
     background-color: #7C7E0C; /* Codigo para color de fondo */
@@ -42,8 +43,6 @@ body
 
 section h1, footer h1, nav a
 {
-    
-    h1 { text-align: center}
     font-family: Dayrom, serif;
     font-weight: normal;
     text-transform: uppercase;
@@ -53,7 +52,7 @@ section h1, footer h1, nav a
 
 header
 {
-    
+    background: url('images/separateur.png') repeat-x bottom;
 }
 
 #main_title
@@ -123,7 +122,7 @@ nav a:hover
     margin-top: 15px;
     height: 200px;
     border-radius: 5px;
-   
+    background: url('images/ECBTI.jpg') no-repeat;
     position: relative;
     box-shadow: 0px 4px 4px #1c1a19;
     margin-bottom: 25px;
@@ -151,7 +150,7 @@ nav a:hover
     position: absolute;
     right: 5px;
     bottom: 5px;
-    
+    background: url('images/red_background.png') repeat-x;
     border: 1px solid #760001;
     border-radius: 5px;
     font-size: 1.2em;
@@ -170,13 +169,11 @@ nav a:hover
 
 article, aside
 {
-    
     display: inline-block;
     vertical-align: top;
     text-align: justify;
 }
 
- 
 article
 {
     width: 625px;
@@ -191,19 +188,11 @@ article
 
 article p
 {
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
 
-header h1, nav{ 
-    display:inline-block; 
-    font-size:1.4em; 
-    max-width:100%; 
-    vertical-align: middle; 
-} 
-
 aside
-{	
-    font-weight: negrita;
+{
     position: relative;
     width: 235px;
     background-color: #006680;
@@ -240,7 +229,8 @@ aside img
 
 footer
 {
-    
+    background:  url('images/ico_top.png') no-repeat top center, url('images/separateur.png') repeat-x top, url('images/shadow.png') repeat-x top;
+    padding-top: 25px;
 }
 
 footer p, footer ul
@@ -286,6 +276,6 @@ footer h1
     vertical-align: top;
     margin-top: 0;
     width: 48%;
-    list-style-image: url('imagenes/external_link.png');
+    list-style-image: url('images/external_link.png');
     padding-left: 2px;
 }
