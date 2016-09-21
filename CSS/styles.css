@@ -42,6 +42,8 @@ body
 
 section h1, footer h1, nav a
 {
+    
+    h1 { text-align: center}
     font-family: Dayrom, serif;
     font-weight: normal;
     text-transform: uppercase;
@@ -174,10 +176,7 @@ article, aside
     text-align: justify;
 }
 
-article, h1
-{ 
-font-weight: negrita;
-}
+ 
 article
 {
     width: 625px;
@@ -192,11 +191,19 @@ article
 
 article p
 {
-    font-size: 0.8em;
+    font-size: 0.9em;
 }
 
+header h1, nav{ 
+    display:inline-block; 
+    font-size:1.4em; 
+    max-width:100%; 
+    vertical-align: middle; 
+} 
+
 aside
-{
+{	
+    font-weight: negrita;
     position: relative;
     width: 235px;
     background-color: #006680;
